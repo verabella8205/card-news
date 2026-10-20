@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+:root{--bg:#F4ECE3;--ink:#2B211C;--accent:#C2593A;--soft:#E7D6C6;--muted:#7A675B;--cream:#FBF7F2}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#999;font-family:"Noto Sans CJK KR",sans-serif;color:var(--ink);word-break:keep-all}
+.card{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--bg);padding:110px 96px}
+.serif{font-family:"Noto Serif CJK KR",serif}
+.tag{display:inline-block;font-size:30px;font-weight:700;letter-spacing:4px;color:var(--accent);border:3px solid var(--accent);border-radius:999px;padding:12px 30px}
+.page{position:absolute;right:96px;bottom:80px;font-size:28px;color:var(--muted);letter-spacing:3px;font-weight:500}
+.brand{position:absolute;left:96px;bottom:80px;font-size:28px;color:var(--muted);letter-spacing:3px;font-weight:500}
+.blob{position:absolute;border-radius:50%;background:var(--soft)}
+h1{font-size:118px;line-height:1.18;font-weight:900;letter-spacing:-4px}
+h2{font-size:84px;line-height:1.22;font-weight:900;letter-spacing:-3px}
+.em{color:var(--accent)}
+.lead{font-size:42px;line-height:1.6;color:var(--muted);font-weight:500}
+.under{background:linear-gradient(transparent 62%,#F2C4AE 62%)}
+.c1{background:var(--ink);color:var(--cream)}
+.c1 .tag{color:#F2A88A;border-color:#F2A88A}
+.c1 .lead{color:#CDBFB4}
+.c1 .page,.c1 .brand{color:#9C8B80}
+.c1 .hl{color:#F2A88A}
+.crack{position:absolute;right:-60px;top:380px;width:520px;height:520px;border-radius:50%;border:4px solid #4A3A31}
+.crack2{position:absolute;right:40px;top:480px;width:320px;height:320px;border-radius:50%;background:#3A2D26}
+.row{display:flex;gap:40px;align-items:flex-start;padding:46px 0;border-top:3px solid #D9C6B5}
+.row:last-child{border-bottom:3px solid #D9C6B5}
+.num{font-size:96px;font-weight:900;color:var(--accent);line-height:.9;min-width:120px}
+.rt{font-size:52px;font-weight:800;letter-spacing:-1.5px;line-height:1.3}
+.rd{font-size:36px;color:var(--muted);margin-top:14px;line-height:1.5}
+.x{color:var(--accent);font-weight:900}
+.chip{display:inline-block;background:var(--cream);border-radius:18px;padding:30px 36px;font-size:40px;line-height:1.5;margin-top:24px;width:100%}
+.cta-box{background:var(--accent);color:var(--cream);border-radius:36px;padding:56px 60px;margin-top:60px}
+.cta-box .big{font-size:64px;font-weight:900;letter-spacing:-2px;line-height:1.3}
+.cta-box .sm{font-size:38px;margin-top:18px;opacity:.92;line-height:1.5}
+.icons{display:flex;gap:28px;margin-top:56px}
+.ic{flex:1;background:var(--cream);border-radius:28px;padding:40px 20px;text-align:center}
+.ic .g{font-size:60px;font-weight:900;color:var(--accent)}
+.ic .l{font-size:34px;font-weight:700;margin-top:10px}
+</style></head><body>
+
+<!-- 1 HOOK -->
+<section class="card c1" id="c1">
+  <div class="crack"></div><div class="crack2"></div>
+  <span class="tag">가을 머리 SOS</span>
+  <h1 class="serif" style="margin-top:90px;position:relative">배수구에<br><span class="hl">머리카락</span><br>한 움큼?</h1>
+  <p class="lead" style="margin-top:70px;font-size:48px;position:relative">가을엔 원래 더 빠져요.<br>다만 <b style="color:var(--cream)">감는 습관</b>은 점검이 필요해요</p>
+  <div class="brand">BEAUTY NOTE</div><div class="page">01 / 05 →</div>
+</section>
+
+<!-- 2 WHY -->
+<section class="card" id="c2">
+  <div class="blob" style="width:560px;height:560px;right:-180px;top:-160px"></div>
+  <span class="tag" style="position:relative">왜 하필 가을?</span>
+  <h2 style="margin-top:80px;position:relative">여름에 쉬던 모발이<br><span class="under">가을에 빠지는</span><br>시기예요</h2>
+  <p class="lead" style="margin-top:60px">하루 50~100가닥은 정상 범위지만,<br>건조한 바람에 두피는 더 예민해져요.</p>
+  <div class="chip"><b class="em">이런 신호는 점검해요</b><br>✓ 가르마가 점점 넓어 보인다<br>✓ 묶은 머리 볼륨이 줄었다<br>✓ 가려움·각질이 오래간다</div>
+  <div class="brand">BEAUTY NOTE</div><div class="page">02 / 05 →</div>
+</section>
+
+<!-- 3 LIST -->
+<section class="card" id="c3">
+  <span class="tag">이것부터 멈추세요</span>
+  <h2 style="margin-top:70px;margin-bottom:60px">두피 지치게 하는<br><span class="em">감기 습관 3</span></h2>
+  
+  <div class="row"><div class="num">01</div><div><div class="rt"><span class="x">✕</span> 40℃ 넘는 뜨거운 물</div><div class="rd">피지막까지 씻겨 건조해지기 쉬워요.</div></div></div>
+  
+  <div class="row"><div class="num">02</div><div><div class="rt"><span class="x">✕</span> 젖은 머리로 잠들기</div><div class="rd">축축한 두피는 곰팡이가 좋아해요.</div></div></div>
+  
+  <div class="row"><div class="num">03</div><div><div class="rt"><span class="x">✕</span> 하루 2번 이상 샴푸</div><div class="rd">땀 흘린 날 아니면 하루 1번이면 충분.</div></div></div>
+  
+  <div class="brand">BEAUTY NOTE</div><div class="page">03 / 05 →</div>
+</section>
+
+<!-- 4 STEPS -->
+<section class="card" id="c4">
+  <div class="blob" style="width:480px;height:480px;left:-200px;bottom:-160px"></div>
+  <span class="tag" style="position:relative">오늘 밤부터</span>
+  <h2 style="margin-top:70px;margin-bottom:60px;position:relative">두피 지키는<br><span class="em">3스텝 감기</span></h2>
+  
+  <div class="row" style="position:relative"><div class="num">1</div><div><div class="rt">미지근한 물 + 손끝 마사지</div><div class="rd">손톱 말고 손가락 끝으로 문질러요</div></div></div>
+  
+  <div class="row" style="position:relative"><div class="num">2</div><div><div class="rt">수건은 비비지 말고 꾹꾹</div><div class="rd">젖은 머리 빗질은 잠시 미뤄요</div></div></div>
+  
+  <div class="row" style="position:relative"><div class="num">3</div><div><div class="rt">드라이어 15cm, 계속 움직이며</div><div class="rd">두피·모근까지 완전히 말리고 자요</div></div></div>
+  
+  <div class="brand">BEAUTY NOTE</div><div class="page">04 / 05 →</div>
+</section>
+
+<!-- 5 CTA -->
+<section class="card" id="c5">
+  <span class="tag">SAVE &amp; SHARE</span>
+  <h2 class="serif" style="margin-top:80px">오늘 밤 머리 감기부터<br><span class="em">다르게 해봐요</span></h2>
+  <div class="cta-box">
+    <div class="big">📌 저장해두고<br>오늘 밤 감을 때 꺼내보세요</div>
+    <div class="sm">빠짐이 계속되면 전문의 상담도 챙기세요.<br>나만의 두피 관리 팁, 댓글로 나눠주세요!</div>
+  </div>
+  <div class="icons">
+    <div class="ic"><div class="g">♡</div><div class="l">좋아요</div></div>
+    <div class="ic"><div class="g">↗</div><div class="l">친구에게 공유</div></div>
+    <div class="ic"><div class="g">+</div><div class="l">팔로우</div></div>
+  </div>
+  <div class="brand">BEAUTY NOTE</div><div class="page">05 / 05</div>
+</section>
+</body></html>
