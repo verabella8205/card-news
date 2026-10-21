@@ -56,4 +56,5 @@ Send the owner (in Korean, via SendUserMessage and SendUserFile so it reaches th
 Then wait.
 - **OK** → `updateScheduledPost` the same post (full content, using Metricool's media URLs) with `draft: false`, `autoPublish: true`. If it is already past 20:00 KST, set the time to now + 3 minutes. Confirm the status, update `topics_log.json` to `"scheduled"`, push.
 - **Edits requested** → change content.json, re-render, push, update the Metricool draft, show the new preview, ask again.
+- **Every change goes to GitHub:** whenever content.json, the rendered cards, or `topics_log.json` change (edits, re-renders, status changes), commit and `git push origin main` right away, so the repo always matches what is in Metricool.
 - **No answer** → do nothing. The post stays a draft and is never published automatically.
