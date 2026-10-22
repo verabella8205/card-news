@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+:root{--bg:#F4ECE3;--ink:#2B211C;--accent:#C2593A;--soft:#E7D6C6;--muted:#7A675B;--cream:#FBF7F2}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#999;font-family:"Noto Sans CJK KR",sans-serif;color:var(--ink);word-break:keep-all}
+.card{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--bg);padding:110px 96px}
+.serif{font-family:"Noto Serif CJK KR",serif}
+.tag{display:inline-block;font-size:30px;font-weight:700;letter-spacing:4px;color:var(--accent);border:3px solid var(--accent);border-radius:999px;padding:12px 30px}
+.page{position:absolute;right:96px;bottom:80px;font-size:28px;color:var(--muted);letter-spacing:3px;font-weight:500}
+.brand{position:absolute;left:96px;bottom:80px;font-size:28px;color:var(--muted);letter-spacing:3px;font-weight:500}
+.blob{position:absolute;border-radius:50%;background:var(--soft)}
+h1{font-size:118px;line-height:1.18;font-weight:900;letter-spacing:-4px}
+h2{font-size:84px;line-height:1.22;font-weight:900;letter-spacing:-3px}
+.em{color:var(--accent)}
+.lead{font-size:42px;line-height:1.6;color:var(--muted);font-weight:500}
+.under{background:linear-gradient(transparent 62%,#F2C4AE 62%)}
+.c1{background:var(--ink);color:var(--cream)}
+.c1 .tag{color:#F2A88A;border-color:#F2A88A}
+.c1 .lead{color:#CDBFB4}
+.c1 .page,.c1 .brand{color:#9C8B80}
+.c1 .hl{color:#F2A88A}
+.crack{position:absolute;right:-60px;top:380px;width:520px;height:520px;border-radius:50%;border:4px solid #4A3A31}
+.crack2{position:absolute;right:40px;top:480px;width:320px;height:320px;border-radius:50%;background:#3A2D26}
+.row{display:flex;gap:40px;align-items:flex-start;padding:46px 0;border-top:3px solid #D9C6B5}
+.row:last-child{border-bottom:3px solid #D9C6B5}
+.num{font-size:96px;font-weight:900;color:var(--accent);line-height:.9;min-width:120px}
+.rt{font-size:52px;font-weight:800;letter-spacing:-1.5px;line-height:1.3}
+.rd{font-size:36px;color:var(--muted);margin-top:14px;line-height:1.5}
+.x{color:var(--accent);font-weight:900}
+.chip{display:inline-block;background:var(--cream);border-radius:18px;padding:30px 36px;font-size:40px;line-height:1.5;margin-top:24px;width:100%}
+.cta-box{background:var(--accent);color:var(--cream);border-radius:36px;padding:56px 60px;margin-top:60px}
+.cta-box .big{font-size:64px;font-weight:900;letter-spacing:-2px;line-height:1.3}
+.cta-box .sm{font-size:38px;margin-top:18px;opacity:.92;line-height:1.5}
+.icons{display:flex;gap:28px;margin-top:56px}
+.ic{flex:1;background:var(--cream);border-radius:28px;padding:40px 20px;text-align:center}
+.ic .g{font-size:60px;font-weight:900;color:var(--accent)}
+.ic .l{font-size:34px;font-weight:700;margin-top:10px}
+</style></head><body>
+
+<!-- 1 HOOK -->
+<section class="card c1" id="c1">
+  <div class="crack"></div><div class="crack2"></div>
+  <span class="tag">가을 입술 SOS</span>
+  <h1 class="serif" style="margin-top:90px;position:relative">립밤 바를수록<br>입술이 <span class="hl">더</span><br>마른다면?</h1>
+  <p class="lead" style="margin-top:70px;font-size:48px;position:relative">매일 바르는 립밤과 습관이<br><b style="color:var(--cream)">건조함을 키우고 있을지도</b> 몰라요</p>
+  <div class="brand">BEAUTY NOTE</div><div class="page">01 / 05 →</div>
+</section>
+
+<!-- 2 WHY -->
+<section class="card" id="c2">
+  <div class="blob" style="width:560px;height:560px;right:-180px;top:-160px"></div>
+  <span class="tag" style="position:relative">왜 하필 지금?</span>
+  <h2 style="margin-top:80px;position:relative">찬 바람에 난방까지,<br><span class="under">입술이 먼저 마르는</span><br>계절이에요</h2>
+  <p class="lead" style="margin-top:60px">입술 보습의 핵심은 수분을 더하기보다<br>있는 수분이 날아가지 않게 막는 거예요.</p>
+  <div class="chip"><b class="em">체크해보세요</b><br>✓ 바를 때 화끈·따끔하다<br>✓ 바를 땐 촉촉, 금방 또 마른다<br>✓ 아침마다 입술이 바짝 말라 있다</div>
+  <div class="brand">BEAUTY NOTE</div><div class="page">02 / 05 →</div>
+</section>
+
+<!-- 3 LIST -->
+<section class="card" id="c3">
+  <span class="tag">이것부터 멈추세요</span>
+  <h2 style="margin-top:70px;margin-bottom:60px">입술 더 마르게 하는<br><span class="em">습관 3</span></h2>
+  
+  <div class="row"><div class="num">01</div><div><div class="rt"><span class="x">✕</span> 따끔한 립밤 계속 쓰기</div><div class="rd">멘톨·페놀·살리실산은 자극일 수 있어요.</div></div></div>
+  
+  <div class="row"><div class="num">02</div><div><div class="rt"><span class="x">✕</span> 각질 억지로 뜯고 문지르기</div><div class="rd">갈라짐이 더 심해질 수 있어요.</div></div></div>
+  
+  <div class="row"><div class="num">03</div><div><div class="rt"><span class="x">✕</span> 입 벌리고 자기</div><div class="rd">난방 바람까지 겹치면 아침에 바짝 말라요.</div></div></div>
+  
+  <div class="brand">BEAUTY NOTE</div><div class="page">03 / 05 →</div>
+</section>
+
+<!-- 4 STEPS -->
+<section class="card" id="c4">
+  <div class="blob" style="width:480px;height:480px;left:-200px;bottom:-160px"></div>
+  <span class="tag" style="position:relative">오늘 밤부터</span>
+  <h2 style="margin-top:70px;margin-bottom:60px;position:relative">촉촉 입술<br><span class="em">3스텝 루틴</span></h2>
+  
+  <div class="row" style="position:relative"><div class="num">1</div><div><div class="rt">무향료 기본형 립밤 고르기</div><div class="rd">페트롤라툼·세라마이드로 수분 잠금</div></div></div>
+  
+  <div class="row" style="position:relative"><div class="num">2</div><div><div class="rt">각질은 젖은 거즈로 불리기</div><div class="rd">떨어진 각질만 가볍게 닦아내요</div></div></div>
+  
+  <div class="row" style="position:relative"><div class="num">3</div><div><div class="rt">자기 전 넉넉히 + 실내 습도</div><div class="rd">낮엔 SPF30↑ 립으로 2시간마다</div></div></div>
+  
+  <div class="brand">BEAUTY NOTE</div><div class="page">04 / 05 →</div>
+</section>
+
+<!-- 5 CTA -->
+<section class="card" id="c5">
+  <span class="tag">SAVE &amp; SHARE</span>
+  <h2 class="serif" style="margin-top:80px">이번 가을엔<br>입술도 <span class="em">촉촉하게 지켜요</span></h2>
+  <div class="cta-box">
+    <div class="big">📌 저장해두고<br>립밤 살 때 꺼내보세요</div>
+    <div class="sm">댓글로 나만의 입술 관리 꿀팁을 알려주세요.<br>다음 카드뉴스 주제로 다뤄드릴게요!</div>
+  </div>
+  <div class="icons">
+    <div class="ic"><div class="g">♡</div><div class="l">좋아요</div></div>
+    <div class="ic"><div class="g">↗</div><div class="l">친구에게 공유</div></div>
+    <div class="ic"><div class="g">+</div><div class="l">팔로우</div></div>
+  </div>
+  <div class="brand">BEAUTY NOTE</div><div class="page">05 / 05</div>
+</section>
+</body></html>
