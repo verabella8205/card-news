@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+:root{--bg:#F4ECE3;--ink:#2B211C;--accent:#C2593A;--soft:#E7D6C6;--muted:#7A675B;--cream:#FBF7F2}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#999;font-family:"Noto Sans CJK KR",sans-serif;color:var(--ink);word-break:keep-all}
+.card{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--bg);padding:110px 96px}
+.serif{font-family:"Noto Serif CJK KR",serif}
+.tag{display:inline-block;font-size:30px;font-weight:700;letter-spacing:4px;color:var(--accent);border:3px solid var(--accent);border-radius:999px;padding:12px 30px}
+.page{position:absolute;right:96px;bottom:80px;font-size:28px;color:var(--muted);letter-spacing:3px;font-weight:500}
+.brand{position:absolute;left:96px;bottom:80px;font-size:28px;color:var(--muted);letter-spacing:3px;font-weight:500}
+.blob{position:absolute;border-radius:50%;background:var(--soft)}
+h1{font-size:118px;line-height:1.18;font-weight:900;letter-spacing:-4px}
+h2{font-size:84px;line-height:1.22;font-weight:900;letter-spacing:-3px}
+.em{color:var(--accent)}
+.lead{font-size:42px;line-height:1.6;color:var(--muted);font-weight:500}
+.under{background:linear-gradient(transparent 62%,#F2C4AE 62%)}
+.c1{background:var(--ink);color:var(--cream)}
+.c1 .tag{color:#F2A88A;border-color:#F2A88A}
+.c1 .lead{color:#CDBFB4}
+.c1 .page,.c1 .brand{color:#9C8B80}
+.c1 .hl{color:#F2A88A}
+.crack{position:absolute;right:-60px;top:380px;width:520px;height:520px;border-radius:50%;border:4px solid #4A3A31}
+.crack2{position:absolute;right:40px;top:480px;width:320px;height:320px;border-radius:50%;background:#3A2D26}
+.row{display:flex;gap:40px;align-items:flex-start;padding:46px 0;border-top:3px solid #D9C6B5}
+.row:last-child{border-bottom:3px solid #D9C6B5}
+.num{font-size:96px;font-weight:900;color:var(--accent);line-height:.9;min-width:120px}
+.rt{font-size:52px;font-weight:800;letter-spacing:-1.5px;line-height:1.3}
+.rd{font-size:36px;color:var(--muted);margin-top:14px;line-height:1.5}
+.x{color:var(--accent);font-weight:900}
+.chip{display:inline-block;background:var(--cream);border-radius:18px;padding:30px 36px;font-size:40px;line-height:1.5;margin-top:24px;width:100%}
+.cta-box{background:var(--accent);color:var(--cream);border-radius:36px;padding:56px 60px;margin-top:60px}
+.cta-box .big{font-size:64px;font-weight:900;letter-spacing:-2px;line-height:1.3}
+.cta-box .sm{font-size:38px;margin-top:18px;opacity:.92;line-height:1.5}
+.icons{display:flex;gap:28px;margin-top:56px}
+.ic{flex:1;background:var(--cream);border-radius:28px;padding:40px 20px;text-align:center}
+.ic .g{font-size:60px;font-weight:900;color:var(--accent)}
+.ic .l{font-size:34px;font-weight:700;margin-top:10px}
+</style></head><body>
+
+<!-- 1 HOOK -->
+<section class="card c1" id="c1">
+  <div class="crack"></div><div class="crack2"></div>
+  <span class="tag">요즘 거울 SOS</span>
+  <h1 class="serif" style="margin-top:90px;position:relative">갑자기 늘어난<br><span class="hl">잔주름</span>,<br>나이 탓일까?</h1>
+  <p class="lead" style="margin-top:70px;font-size:48px;position:relative">기온 뚝 떨어진 요즘이라면<br><b style="color:var(--cream)">건조 탓</b>일 수도 있어요</p>
+  <div class="brand">BEAUTY NOTE</div><div class="page">01 / 05 →</div>
+</section>
+
+<!-- 2 WHY -->
+<section class="card" id="c2">
+  <div class="blob" style="width:560px;height:560px;right:-180px;top:-160px"></div>
+  <span class="tag" style="position:relative">왜 하필 지금?</span>
+  <h2 style="margin-top:80px;position:relative">찬 바람 불면<br><span class="under">피부 표면 수분이</span><br>쉽게 빠져요</h2>
+  <p class="lead" style="margin-top:60px">기온이 낮아지면 피지 분비가 줄고,<br>습도까지 낮아 수분을 지키기 어려워요.</p>
+  <div class="chip"><b class="em">체크해보세요</b><br>✓ 세안 후 얼굴이 금방 당긴다<br>✓ 피부결이 거칠고 푸석하다<br>✓ 얼굴이 칙칙해 보인다</div>
+  <div class="brand">BEAUTY NOTE</div><div class="page">02 / 05 →</div>
+</section>
+
+<!-- 3 LIST -->
+<section class="card" id="c3">
+  <span class="tag">헷갈리지 마세요</span>
+  <h2 style="margin-top:70px;margin-bottom:60px">건조 vs 탄력,<br><span class="em">원인이 달라요</span></h2>
+  
+  <div class="row"><div class="num">01</div><div><div class="rt">건조는 표면의 문제</div><div class="rd">수분이 빠진 상태, 보습으로 달라질 수 있어요.</div></div></div>
+  
+  <div class="row"><div class="num">02</div><div><div class="rt">탄력 저하는 깊은 층</div><div class="rd">진피 속 콜라겐·탄력섬유가 줄어드는 변화예요.</div></div></div>
+  
+  <div class="row"><div class="num">03</div><div><div class="rt">겉보기엔 비슷해요</div><div class="rd">보습만으로 달라지는 경우도 있어요.</div></div></div>
+  
+  <div class="brand">BEAUTY NOTE</div><div class="page">03 / 05 →</div>
+</section>
+
+<!-- 4 STEPS -->
+<section class="card" id="c4">
+  <div class="blob" style="width:480px;height:480px;left:-200px;bottom:-160px"></div>
+  <span class="tag" style="position:relative">오늘 밤부터</span>
+  <h2 style="margin-top:70px;margin-bottom:60px;position:relative">건조 잔주름<br><span class="em">3스텝 보습 루틴</span></h2>
+  
+  <div class="row" style="position:relative"><div class="num">1</div><div><div class="rt">미지근한 물로 짧게 세안</div><div class="rd">세게 문지르지 말고 부드럽게</div></div></div>
+  
+  <div class="row" style="position:relative"><div class="num">2</div><div><div class="rt">건조해지기 전에 바로 보습</div><div class="rd">당기는 부위엔 한 번 더 덧발라요</div></div></div>
+  
+  <div class="row" style="position:relative"><div class="num">3</div><div><div class="rt">제형·양은 피부에 맞게</div><div class="rd">심한 부위는 크림 + 실내 습도 체크</div></div></div>
+  
+  <div class="brand">BEAUTY NOTE</div><div class="page">04 / 05 →</div>
+</section>
+
+<!-- 5 CTA -->
+<section class="card" id="c5">
+  <span class="tag">SAVE &amp; SHARE</span>
+  <h2 class="serif" style="margin-top:80px">보습부터 챙기면<br>피부결이 <span class="em">달라져요</span></h2>
+  <div class="cta-box">
+    <div class="big">📌 저장해두고<br>오늘 밤 세안부터 바꿔보세요</div>
+    <div class="sm">요즘 가장 건조한 부위는 어디예요?<br>댓글로 알려주시면 다음 주제로 다룰게요!</div>
+  </div>
+  <div class="icons">
+    <div class="ic"><div class="g">♡</div><div class="l">좋아요</div></div>
+    <div class="ic"><div class="g">↗</div><div class="l">친구에게 공유</div></div>
+    <div class="ic"><div class="g">+</div><div class="l">팔로우</div></div>
+  </div>
+  <div class="brand">BEAUTY NOTE</div><div class="page">05 / 05</div>
+</section>
+</body></html>
