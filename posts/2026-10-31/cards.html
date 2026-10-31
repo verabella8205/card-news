@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+:root{--bg:#F4ECE3;--ink:#2B211C;--accent:#C2593A;--soft:#E7D6C6;--muted:#7A675B;--cream:#FBF7F2}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#999;font-family:"Noto Sans CJK KR",sans-serif;color:var(--ink);word-break:keep-all}
+.card{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--bg);padding:110px 96px}
+.serif{font-family:"Noto Serif CJK KR",serif}
+.tag{display:inline-block;font-size:30px;font-weight:700;letter-spacing:4px;color:var(--accent);border:3px solid var(--accent);border-radius:999px;padding:12px 30px}
+.page{position:absolute;right:96px;bottom:80px;font-size:28px;color:var(--muted);letter-spacing:3px;font-weight:500}
+.brand{position:absolute;left:96px;bottom:80px;font-size:28px;color:var(--muted);letter-spacing:3px;font-weight:500}
+.blob{position:absolute;border-radius:50%;background:var(--soft)}
+h1{font-size:118px;line-height:1.18;font-weight:900;letter-spacing:-4px}
+h2{font-size:84px;line-height:1.22;font-weight:900;letter-spacing:-3px}
+.em{color:var(--accent)}
+.lead{font-size:42px;line-height:1.6;color:var(--muted);font-weight:500}
+.under{background:linear-gradient(transparent 62%,#F2C4AE 62%)}
+.c1{background:var(--ink);color:var(--cream)}
+.c1 .tag{color:#F2A88A;border-color:#F2A88A}
+.c1 .lead{color:#CDBFB4}
+.c1 .page,.c1 .brand{color:#9C8B80}
+.c1 .hl{color:#F2A88A}
+.crack{position:absolute;right:-60px;top:380px;width:520px;height:520px;border-radius:50%;border:4px solid #4A3A31}
+.crack2{position:absolute;right:40px;top:480px;width:320px;height:320px;border-radius:50%;background:#3A2D26}
+.row{display:flex;gap:40px;align-items:flex-start;padding:46px 0;border-top:3px solid #D9C6B5}
+.row:last-child{border-bottom:3px solid #D9C6B5}
+.num{font-size:96px;font-weight:900;color:var(--accent);line-height:.9;min-width:120px}
+.rt{font-size:52px;font-weight:800;letter-spacing:-1.5px;line-height:1.3}
+.rd{font-size:36px;color:var(--muted);margin-top:14px;line-height:1.5}
+.x{color:var(--accent);font-weight:900}
+.chip{display:inline-block;background:var(--cream);border-radius:18px;padding:30px 36px;font-size:40px;line-height:1.5;margin-top:24px;width:100%}
+.cta-box{background:var(--accent);color:var(--cream);border-radius:36px;padding:56px 60px;margin-top:60px}
+.cta-box .big{font-size:64px;font-weight:900;letter-spacing:-2px;line-height:1.3}
+.cta-box .sm{font-size:38px;margin-top:18px;opacity:.92;line-height:1.5}
+.icons{display:flex;gap:28px;margin-top:56px}
+.ic{flex:1;background:var(--cream);border-radius:28px;padding:40px 20px;text-align:center}
+.ic .g{font-size:60px;font-weight:900;color:var(--accent)}
+.ic .l{font-size:34px;font-weight:700;margin-top:10px}
+</style></head><body>
+
+<!-- 1 HOOK -->
+<section class="card c1" id="c1">
+  <div class="crack"></div><div class="crack2"></div>
+  <span class="tag">11월 헤어 SOS</span>
+  <h1 class="serif" style="margin-top:90px;position:relative">빗기만 해도<br>머리가 <span class="hl">붕</span><br>뜬다면?</h1>
+  <p class="lead" style="margin-top:70px;font-size:48px;position:relative">건조한 계절, 모발에<br><b style="color:var(--cream)">정전기가 쌓이고 있다</b>는 신호예요</p>
+  <div class="brand">BEAUTY NOTE</div><div class="page">01 / 05 →</div>
+</section>
+
+<!-- 2 WHY -->
+<section class="card" id="c2">
+  <div class="blob" style="width:560px;height:560px;right:-180px;top:-160px"></div>
+  <span class="tag" style="position:relative">왜 하필 지금?</span>
+  <h2 style="margin-top:80px;position:relative">난방 켜는 계절,<br><span class="under">습도가 뚝 떨어지면</span><br>머리가 떠요</h2>
+  <p class="lead" style="margin-top:60px">공기 중 수분이 부족하면 전기가<br>빠져나가지 못하고 모발에 남아요.</p>
+  <div class="chip"><b class="em">체크해보세요</b><br>✓ 머리 끝이 거칠고 쉽게 엉킨다<br>✓ 빗질하면 얼굴에 달라붙는다<br>✓ 염색·펌 한 끝이 더 뜬다</div>
+  <div class="brand">BEAUTY NOTE</div><div class="page">02 / 05 →</div>
+</section>
+
+<!-- 3 LIST -->
+<section class="card" id="c3">
+  <span class="tag">이것부터 멈추세요</span>
+  <h2 style="margin-top:70px;margin-bottom:60px">정전기 부르는<br><span class="em">헤어 습관 3</span></h2>
+  
+  <div class="row"><div class="num">01</div><div><div class="rt"><span class="x">✕</span> 수건으로 박박 비비기</div><div class="rd">큐티클이 상해요. 감싸듯 눌러 닦기.</div></div></div>
+  
+  <div class="row"><div class="num">02</div><div><div class="rt"><span class="x">✕</span> 뜨거운 바람 한 곳에 오래</div><div class="rd">드라이어는 계속 움직여 주세요.</div></div></div>
+  
+  <div class="row"><div class="num">03</div><div><div class="rt"><span class="x">✕</span> 말리면서 계속 빗질</div><div class="rd">마찰이 정전기를 다시 만들어요.</div></div></div>
+  
+  <div class="brand">BEAUTY NOTE</div><div class="page">03 / 05 →</div>
+</section>
+
+<!-- 4 STEPS -->
+<section class="card" id="c4">
+  <div class="blob" style="width:480px;height:480px;left:-200px;bottom:-160px"></div>
+  <span class="tag" style="position:relative">오늘 밤부터</span>
+  <h2 style="margin-top:70px;margin-bottom:60px;position:relative">정전기 잡는<br><span class="em">3스텝 드라이</span></h2>
+  
+  <div class="row" style="position:relative"><div class="num">1</div><div><div class="rt">물기 있을 때 에센스</div><div class="rd">귀 아래, 중간부터 끝까지 쓸어내리기</div></div></div>
+  
+  <div class="row" style="position:relative"><div class="num">2</div><div><div class="rt">두피부터 60~70% 말리기</div><div class="rd">15cm 떨어뜨려 계속 움직이며</div></div></div>
+  
+  <div class="row" style="position:relative"><div class="num">3</div><div><div class="rt">끝은 약풍, 마무리는 찬바람</div><div class="rd">+ 손바닥으로 눌러 뜬 가닥 정리</div></div></div>
+  
+  <div class="brand">BEAUTY NOTE</div><div class="page">04 / 05 →</div>
+</section>
+
+<!-- 5 CTA -->
+<section class="card" id="c5">
+  <span class="tag">SAVE &amp; SHARE</span>
+  <h2 class="serif" style="margin-top:80px">드라이 순서만 바꿔도<br><span class="em">한결 차분해져요</span></h2>
+  <div class="cta-box">
+    <div class="big">📌 저장해두고<br>오늘 밤 드라이할 때 써보세요</div>
+    <div class="sm">댓글로 요즘 머리 고민을 한 단어로 남겨주세요.<br>다음 카드뉴스 주제로 다뤄드릴게요!</div>
+  </div>
+  <div class="icons">
+    <div class="ic"><div class="g">♡</div><div class="l">좋아요</div></div>
+    <div class="ic"><div class="g">↗</div><div class="l">친구에게 공유</div></div>
+    <div class="ic"><div class="g">+</div><div class="l">팔로우</div></div>
+  </div>
+  <div class="brand">BEAUTY NOTE</div><div class="page">05 / 05</div>
+</section>
+</body></html>
