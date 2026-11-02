@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+:root{--bg:#F4ECE3;--ink:#2B211C;--accent:#C2593A;--soft:#E7D6C6;--muted:#7A675B;--cream:#FBF7F2}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#999;font-family:"Noto Sans CJK KR",sans-serif;color:var(--ink);word-break:keep-all}
+.card{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--bg);padding:110px 96px}
+.serif{font-family:"Noto Serif CJK KR",serif}
+.tag{display:inline-block;font-size:30px;font-weight:700;letter-spacing:4px;color:var(--accent);border:3px solid var(--accent);border-radius:999px;padding:12px 30px}
+.page{position:absolute;right:96px;bottom:80px;font-size:28px;color:var(--muted);letter-spacing:3px;font-weight:500}
+.brand{position:absolute;left:96px;bottom:80px;font-size:28px;color:var(--muted);letter-spacing:3px;font-weight:500}
+.blob{position:absolute;border-radius:50%;background:var(--soft)}
+h1{font-size:118px;line-height:1.18;font-weight:900;letter-spacing:-4px}
+h2{font-size:84px;line-height:1.22;font-weight:900;letter-spacing:-3px}
+.em{color:var(--accent)}
+.lead{font-size:42px;line-height:1.6;color:var(--muted);font-weight:500}
+.under{background:linear-gradient(transparent 62%,#F2C4AE 62%)}
+.c1{background:var(--ink);color:var(--cream)}
+.c1 .tag{color:#F2A88A;border-color:#F2A88A}
+.c1 .lead{color:#CDBFB4}
+.c1 .page,.c1 .brand{color:#9C8B80}
+.c1 .hl{color:#F2A88A}
+.crack{position:absolute;right:-60px;top:380px;width:520px;height:520px;border-radius:50%;border:4px solid #4A3A31}
+.crack2{position:absolute;right:40px;top:480px;width:320px;height:320px;border-radius:50%;background:#3A2D26}
+.row{display:flex;gap:40px;align-items:flex-start;padding:46px 0;border-top:3px solid #D9C6B5}
+.row:last-child{border-bottom:3px solid #D9C6B5}
+.num{font-size:96px;font-weight:900;color:var(--accent);line-height:.9;min-width:120px}
+.rt{font-size:52px;font-weight:800;letter-spacing:-1.5px;line-height:1.3}
+.rd{font-size:36px;color:var(--muted);margin-top:14px;line-height:1.5}
+.x{color:var(--accent);font-weight:900}
+.chip{display:inline-block;background:var(--cream);border-radius:18px;padding:30px 36px;font-size:40px;line-height:1.5;margin-top:24px;width:100%}
+.cta-box{background:var(--accent);color:var(--cream);border-radius:36px;padding:56px 60px;margin-top:60px}
+.cta-box .big{font-size:64px;font-weight:900;letter-spacing:-2px;line-height:1.3}
+.cta-box .sm{font-size:38px;margin-top:18px;opacity:.92;line-height:1.5}
+.icons{display:flex;gap:28px;margin-top:56px}
+.ic{flex:1;background:var(--cream);border-radius:28px;padding:40px 20px;text-align:center}
+.ic .g{font-size:60px;font-weight:900;color:var(--accent)}
+.ic .l{font-size:34px;font-weight:700;margin-top:10px}
+</style></head><body>
+
+<!-- 1 HOOK -->
+<section class="card c1" id="c1">
+  <div class="crack"></div><div class="crack2"></div>
+  <span class="tag">블프 쇼핑 전</span>
+  <h1 class="serif" style="margin-top:90px;position:relative">1+1로 쟁인<br>그 크림,<br><span class="hl">상했을</span> 수도?</h1>
+  <p class="lead" style="margin-top:70px;font-size:48px;position:relative">유통기한보다 중요한 건<br><b style="color:var(--cream)">개봉 후 사용기한</b>이에요</p>
+  <div class="brand">BEAUTY NOTE</div><div class="page">01 / 05 →</div>
+</section>
+
+<!-- 2 WHY -->
+<section class="card" id="c2">
+  <div class="blob" style="width:560px;height:560px;right:-180px;top:-160px"></div>
+  <span class="tag" style="position:relative">왜 하필 지금?</span>
+  <h2 style="margin-top:80px;position:relative">블프 시즌,<br><span class="under">쟁이기 전에</span><br>서랍부터 열어봐요</h2>
+  <p class="lead" style="margin-top:60px">뜯는 순간 공기·손·습기로 변질이 빨라져요.<br>미개봉 2~3년과는 기준이 달라요.</p>
+  <div class="chip"><b class="em">체크해보세요</b><br>✓ 열린 통 그림 옆 12M 표시<br>✓ 색·냄새·제형이 변했다<br>✓ 언제 뜯었는지 기억 안 난다</div>
+  <div class="brand">BEAUTY NOTE</div><div class="page">02 / 05 →</div>
+</section>
+
+<!-- 3 LIST -->
+<section class="card" id="c3">
+  <span class="tag">기한 짧은 순서</span>
+  <h2 style="margin-top:70px;margin-bottom:60px">쓰는 중이라면<br><span class="em">먼저 볼 3가지</span></h2>
+  
+  <div class="row"><div class="num">01</div><div><div class="rt">마스카라·아이라이너</div><div class="rd">개봉 후 3~6개월이 권장 기한이에요.</div></div></div>
+  
+  <div class="row"><div class="num">02</div><div><div class="rt">선크림</div><div class="rd">개봉 후 6~12개월 안에 써주세요.</div></div></div>
+  
+  <div class="row"><div class="num">03</div><div><div class="rt">파운데이션·컨실러</div><div class="rd">6~12개월, 분리·냄새 나면 바로 폐기.</div></div></div>
+  
+  <div class="brand">BEAUTY NOTE</div><div class="page">03 / 05 →</div>
+</section>
+
+<!-- 4 STEPS -->
+<section class="card" id="c4">
+  <div class="blob" style="width:480px;height:480px;left:-200px;bottom:-160px"></div>
+  <span class="tag" style="position:relative">오늘부터</span>
+  <h2 style="margin-top:70px;margin-bottom:60px;position:relative">끝까지 쓰는<br><span class="em">보관 3스텝</span></h2>
+  
+  <div class="row" style="position:relative"><div class="num">1</div><div><div class="rt">뜯은 날짜 적어두기</div><div class="rd">스티커·네임펜으로 용기에 기록</div></div></div>
+  
+  <div class="row" style="position:relative"><div class="num">2</div><div><div class="rt">욕실 말고 서늘한 곳에</div><div class="rd">직사광선·열·습기를 피해 보관</div></div></div>
+  
+  <div class="row" style="position:relative"><div class="num">3</div><div><div class="rt">크림은 스패츌러로 덜기</div><div class="rd">쓰고 나면 바로 뚜껑 닫기까지</div></div></div>
+  
+  <div class="brand">BEAUTY NOTE</div><div class="page">04 / 05 →</div>
+</section>
+
+<!-- 5 CTA -->
+<section class="card" id="c5">
+  <span class="tag">SAVE &amp; SHARE</span>
+  <h2 class="serif" style="margin-top:80px">쟁이는 만큼<br><span class="em">제때 쓰는 게</span> 이득</h2>
+  <div class="cta-box">
+    <div class="big">📌 저장해두고<br>장바구니 담기 전 체크</div>
+    <div class="sm">상했다 싶거나 따가우면 바로 멈추세요.<br>서랍 속 최장수 화장품, 댓글로 알려주세요!</div>
+  </div>
+  <div class="icons">
+    <div class="ic"><div class="g">♡</div><div class="l">좋아요</div></div>
+    <div class="ic"><div class="g">↗</div><div class="l">친구에게 공유</div></div>
+    <div class="ic"><div class="g">+</div><div class="l">팔로우</div></div>
+  </div>
+  <div class="brand">BEAUTY NOTE</div><div class="page">05 / 05</div>
+</section>
+</body></html>
