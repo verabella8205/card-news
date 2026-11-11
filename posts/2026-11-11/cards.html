@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<style>
+:root{--bg:#F4ECE3;--ink:#2B211C;--accent:#C2593A;--soft:#E7D6C6;--muted:#7A675B;--cream:#FBF7F2}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#999;font-family:"Noto Sans CJK KR",sans-serif;color:var(--ink);word-break:keep-all}
+.card{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--bg);padding:110px 96px}
+.serif{font-family:"Noto Serif CJK KR",serif}
+.tag{display:inline-block;font-size:30px;font-weight:700;letter-spacing:4px;color:var(--accent);border:3px solid var(--accent);border-radius:999px;padding:12px 30px}
+.page{position:absolute;right:96px;bottom:80px;font-size:28px;color:var(--muted);letter-spacing:3px;font-weight:500}
+.brand{position:absolute;left:96px;bottom:80px;font-size:28px;color:var(--muted);letter-spacing:3px;font-weight:500}
+.blob{position:absolute;border-radius:50%;background:var(--soft)}
+h1{font-size:118px;line-height:1.18;font-weight:900;letter-spacing:-4px}
+h2{font-size:84px;line-height:1.22;font-weight:900;letter-spacing:-3px}
+.em{color:var(--accent)}
+.lead{font-size:42px;line-height:1.6;color:var(--muted);font-weight:500}
+.under{background:linear-gradient(transparent 62%,#F2C4AE 62%)}
+.c1{background:var(--ink);color:var(--cream)}
+.c1 .tag{color:#F2A88A;border-color:#F2A88A}
+.c1 .lead{color:#CDBFB4}
+.c1 .page,.c1 .brand{color:#9C8B80}
+.c1 .hl{color:#F2A88A}
+.crack{position:absolute;right:-60px;top:380px;width:520px;height:520px;border-radius:50%;border:4px solid #4A3A31}
+.crack2{position:absolute;right:40px;top:480px;width:320px;height:320px;border-radius:50%;background:#3A2D26}
+.row{display:flex;gap:40px;align-items:flex-start;padding:46px 0;border-top:3px solid #D9C6B5}
+.row:last-child{border-bottom:3px solid #D9C6B5}
+.num{font-size:96px;font-weight:900;color:var(--accent);line-height:.9;min-width:120px}
+.rt{font-size:52px;font-weight:800;letter-spacing:-1.5px;line-height:1.3}
+.rd{font-size:36px;color:var(--muted);margin-top:14px;line-height:1.5}
+.x{color:var(--accent);font-weight:900}
+.chip{display:inline-block;background:var(--cream);border-radius:18px;padding:30px 36px;font-size:40px;line-height:1.5;margin-top:24px;width:100%}
+.cta-box{background:var(--accent);color:var(--cream);border-radius:36px;padding:56px 60px;margin-top:60px}
+.cta-box .big{font-size:64px;font-weight:900;letter-spacing:-2px;line-height:1.3}
+.cta-box .sm{font-size:38px;margin-top:18px;opacity:.92;line-height:1.5}
+.icons{display:flex;gap:28px;margin-top:56px}
+.ic{flex:1;background:var(--cream);border-radius:28px;padding:40px 20px;text-align:center}
+.ic .g{font-size:60px;font-weight:900;color:var(--accent)}
+.ic .l{font-size:34px;font-weight:700;margin-top:10px}
+</style></head><body>
+
+<!-- 1 HOOK -->
+<section class="card c1" id="c1">
+  <div class="crack"></div><div class="crack2"></div>
+  <span class="tag">샤워 순서 체크</span>
+  <h1 class="serif" style="margin-top:90px;position:relative">샤워할 때<br><span class="hl">얼굴</span>부터<br>씻나요?</h1>
+  <p class="lead" style="margin-top:70px;font-size:48px;position:relative">헹군 린스가 이마·등에 남으면<br><b style="color:var(--cream)">트러블 원인이 될 수</b> 있어요</p>
+  <div class="brand">BEAUTY NOTE</div><div class="page">01 / 05 →</div>
+</section>
+
+<!-- 2 WHY -->
+<section class="card" id="c2">
+  <div class="blob" style="width:560px;height:560px;right:-180px;top:-160px"></div>
+  <span class="tag" style="position:relative">왜 하필 지금?</span>
+  <h2 style="margin-top:80px;position:relative">찬 공기에 난방까지,<br><span class="under">샤워 습관이 중요한</span><br>11월이에요</h2>
+  <p class="lead" style="margin-top:60px">실내외 습도가 낮아지는데 뜨거운 샤워는<br>피부를 지키는 유분까지 씻어내요.</p>
+  <div class="chip"><b class="em">체크해보세요</b><br>✓ 이마·헤어라인에 트러블이 잦다<br>✓ 등·가슴이 오돌토돌하다<br>✓ 씻고 나면 온몸이 금방 땅긴다</div>
+  <div class="brand">BEAUTY NOTE</div><div class="page">02 / 05 →</div>
+</section>
+
+<!-- 3 LIST -->
+<section class="card" id="c3">
+  <span class="tag">이것부터 멈추세요</span>
+  <h2 style="margin-top:70px;margin-bottom:60px">피부 망치는<br><span class="em">샤워 순서 실수 3</span></h2>
+  
+  <div class="row"><div class="num">01</div><div><div class="rt"><span class="x">✕</span> 얼굴부터 먼저 세안</div><div class="rd">샴푸·린스 잔여물이 이마에 남아요.</div></div></div>
+  
+  <div class="row"><div class="num">02</div><div><div class="rt"><span class="x">✕</span> 린스를 두피까지 듬뿍</div><div class="rd">모발 중간~끝에만, 꼼꼼히 헹궈요.</div></div></div>
+  
+  <div class="row"><div class="num">03</div><div><div class="rt"><span class="x">✕</span> 몸 씻기 전 면도</div><div class="rd">따뜻한 물에 불린 뒤, 결 방향으로.</div></div></div>
+  
+  <div class="brand">BEAUTY NOTE</div><div class="page">03 / 05 →</div>
+</section>
+
+<!-- 4 STEPS -->
+<section class="card" id="c4">
+  <div class="blob" style="width:480px;height:480px;left:-200px;bottom:-160px"></div>
+  <span class="tag" style="position:relative">오늘 밤부터</span>
+  <h2 style="margin-top:70px;margin-bottom:60px;position:relative">피부 지키는<br><span class="em">샤워 3스텝</span></h2>
+  
+  <div class="row" style="position:relative"><div class="num">1</div><div><div class="rt">머리 먼저, 잔여물 꼼꼼히</div><div class="rd">손톱 말고 손끝으로 두피 마사지</div></div></div>
+  
+  <div class="row" style="position:relative"><div class="num">2</div><div><div class="rt">몸은 5~10분, 미지근하게</div><div class="rd">세정제는 필요한 부위 위주로</div></div></div>
+  
+  <div class="row" style="position:relative"><div class="num">3</div><div><div class="rt">얼굴은 마지막, 바로 보습</div><div class="rd">물기 남아 있을 때 톡톡 발라요</div></div></div>
+  
+  <div class="brand">BEAUTY NOTE</div><div class="page">04 / 05 →</div>
+</section>
+
+<!-- 5 CTA -->
+<section class="card" id="c5">
+  <span class="tag">SAVE &amp; SHARE</span>
+  <h2 class="serif" style="margin-top:80px">오늘 샤워부터<br><span class="em">순서만 바꿔보세요</span></h2>
+  <div class="cta-box">
+    <div class="big">📌 저장해두고<br>오늘 샤워할 때 따라 해보세요</div>
+    <div class="sm">여러분은 어디부터 씻나요? 머리 vs 얼굴<br>댓글로 알려주세요!</div>
+  </div>
+  <div class="icons">
+    <div class="ic"><div class="g">♡</div><div class="l">좋아요</div></div>
+    <div class="ic"><div class="g">↗</div><div class="l">친구에게 공유</div></div>
+    <div class="ic"><div class="g">+</div><div class="l">팔로우</div></div>
+  </div>
+  <div class="brand">BEAUTY NOTE</div><div class="page">05 / 05</div>
+</section>
+</body></html>
