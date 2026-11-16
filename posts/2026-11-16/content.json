@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-16",
+  "topic": "겨울이라 선크림 쉬었다면? 실내·흐린 날에도 챙기는 겨울 선크림 습관",
+  "brand": "BEAUTY NOTE",
+  "card1": {
+    "tag": "겨울 선크림",
+    "title": "겨울이라<br><span class=\"hl\">선크림</span><br>쉬고 있나요?",
+    "sub": "흐린 날에도, 창가에서도<br><b style=\"color:var(--cream)\">UVA는 들어올 수 있어요</b>"
+  },
+  "card2": {
+    "tag": "왜 하필 지금?",
+    "title": "햇볕은 약해져도<br><span class=\"under\">UVA는 계절을</span><br>덜 타요",
+    "body": "피부를 붉게 태우는 UVB만 약해질 뿐,<br>UVA는 구름과 유리창도 일부 통과해요.",
+    "check_title": "체크해보세요",
+    "checks": [
+      "창가 자리에 오래 앉아 있다",
+      "운전을 자주 하는 편이다",
+      "주말엔 스키·등산을 간다"
+    ]
+  },
+  "card3": {
+    "tag": "이것부터 멈추세요",
+    "title": "겨울 선크림<br><span class=\"em\">흔한 실수 3</span>",
+    "mark_x": true,
+    "items": [
+      {
+        "title": "얇게 한 번만 쓱",
+        "desc": "얇으면 표시 지수만큼 효과 보기 어려워요"
+      },
+      {
+        "title": "나가기 직전 바르기",
+        "desc": "외출 15~30분 전에 발라두세요"
+      },
+      {
+        "title": "SPF 숫자만 보기",
+        "desc": "UVA 차단 정도는 PA 표시로 확인해요"
+      }
+    ]
+  },
+  "card4": {
+    "tag": "내일 아침부터",
+    "title": "겨울 선크림<br><span class=\"em\">3스텝 루틴</span>",
+    "steps": [
+      {
+        "title": "보습제 먼저, 흡수 후 선크림",
+        "desc": "밀착력이 좋아져 덜 밀려요"
+      },
+      {
+        "title": "건성은 크림, 지성은 로션·젤",
+        "desc": "겨울엔 보습 성분도 함께 체크"
+      },
+      {
+        "title": "점심쯤 선쿠션으로 덧바르기",
+        "desc": "실내는 4시간, 야외는 2시간마다"
+      }
+    ]
+  },
+  "card5": {
+    "title": "겨울에도 선크림은<br><span class=\"em\">매일 기본템</span>이에요",
+    "cta": "📌 저장해두고<br>내일 아침 바로 써보세요",
+    "sub": "겨울에도 선크림 바르시나요?<br>댓글로 O / X 남겨주세요!"
+  },
+  "caption": "겨울이라 선크림 쉬고 있었다면, 오늘 보고 가세요 ☁️\nUVA는 흐린 날·창가에서도 들어와요. 겨울 선크림 루틴 저장해두세요 📌\n겨울에도 선크림 바르시나요? 댓글로 O/X 남겨주세요 👇\n\n#겨울선크림 #자외선차단 #선크림덧바르기 #30대피부관리 #겨울스킨케어 #뷰티카드뉴스",
+  "sources": [
+    "https://www.pickdailynews.com/news/articleView.html?idxno=6076",
+    "https://www.cosmopolitan.co.kr/article/1912433"
+  ]
+}
